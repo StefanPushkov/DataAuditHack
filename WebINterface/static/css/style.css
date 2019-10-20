@@ -166,6 +166,10 @@ body {
     margin: 30px 0;
 }
 
+.an2 {
+    padding-top: 70px;
+}
+
 
 .main_section__about {
     background: url(../../static/images/offers-bg-flower.svg) calc(50% + 500px) 10px no-repeat,
@@ -286,6 +290,7 @@ body {
     overflow: hidden;
     display: block;
     margin-bottom: 10px;
+    margin-top: 20px;
     cursor: pointer;
 }
 .calculate-form_checkbox input {

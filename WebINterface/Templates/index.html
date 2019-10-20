@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
 
-    <link href="static/css/style.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
 
     <script src="//code.jquery.com/jquery-latest.min.js"></script>
-    <script src="static/js/script.js"></script>
+    <script src="../static/js/script.js"></script>
 </head>
 <body>
 
@@ -32,7 +32,7 @@
                     <a href="#about" class="header_menu_list_item_link">О проекте</a>
                 </li>
                 <li class="header_menu_list_item">
-                    <a href="#calculate" class="header_menu_list_item_link">Гос поддержка</a>
+                    <a href="#calculate" class="header_menu_list_item_link">Заявка</a>
                 </li>
                 <li class="header_menu_list_item">
                     <a href="#team" class="header_menu_list_item_link">Закон</a>
@@ -52,14 +52,14 @@
 
         <div class="content-wrapper">
             <div class="main_section__home_title">
-                Может ли ваш проект рассичтывать на госдарственную поддержку в качестве инвестиций
+                Может ли ваш проект рассчитывать на государственную поддержку в качестве инвестиций?
             </div>
             <div class="main_section__home_description">
-                Используем новейшие алгоритмы Анализа Данных для оценки вероятности привлечь государственные инвестиции
-                для вашего проекта.
+                Собрали для вас всю необходимую информацию, чтобы сделать процесс отправки заявки на получение
+                государственной финансовой поддержки вашего проекта максимально лёгким!
             </div>
             <div class="main_section__home_button">
-                <a href="#calculate" type="button" class="btn btn-submit">Оценить</a>
+                <a href="#calculate" type="button" class="btn btn-submit">Отправить заявку</a>
             </div>
         </div>
     </section>
@@ -72,11 +72,11 @@
                 О проекте
             </div>
             <div class="main_section__about_description">
-                Наша платформа собирает открытые данные о проектах, получивших государственные инвестиции на развитие.
-                Источниками данных служат интернет ресурсы министерства финансов и министерства экономического развития Российской федерации.
-                Мы оцениваем уровень соответсвия вашего проекта
-                государственным требованиям для получения государственной поддержки, а также даём рекомендации
-                если ваш проект нуждается в доработке.
+                Мы собрали для вас правила отбора инвестиционных проектов и принципалов для предоставления
+государственных гарантий Российской Федерации по кредитам либо облигационным займам, привлекаемым на осуществление
+инвестиционных проектов. Теперь они в удобной форме и прямо перед вами. (Не нужно копаться в большом
+количестве информации на ресурсах для инвестиционных проектов и сайтах налоговых служб в поиске
+актуальной информации)
             </div>
 
             <div class="about-offers">
@@ -107,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                -->
+
                 <div class="about-offers_item">
                     <div class="about-offers_item_content">
                         <div class="about-offers_item_img">
@@ -121,6 +121,7 @@
                         </div>
                     </div>
                 </div>
+                -->
             </div>
         </div>
     </section>
@@ -128,7 +129,8 @@
     <a id="calculate"></a>
     <section class="main_section main_section__calculate">
         <div class="content-wrapper">
-            <div class="main_section__calculate_title">Проверить проект на наличие государственных гарантий</div>
+            <div class="main_section__calculate_title">Заполнить форму и отправить заявку на получение государственных
+                инвестиций</div>
             <div class="calculate-form">
                 <div class="calculate-form_map">
                     <!--<div class="calculate-form_map_label">Укажите точку на карте</div>-->
@@ -136,7 +138,7 @@
                 </div>
                 <form class="calculate-form_fields" id="calculate-form">
                     <div id="stadii">Проект должен пройти две стадии проверки</div>
-                    <div id="stad_1">Стадия 1: Отбор. Соответствие нормам 1016</div>
+                    <div id="stad_1">Стадия 1: Отбор. Соответствие проекта Постановлению Правительства РФ №1016</div>
                     <div class="calculate-form_field">
                         <label class="calculate-form_checkbox">
                             <input type="checkbox" name="renovation">
@@ -173,9 +175,9 @@
                         </span>
                         </label>
 
-                        <div id="stad_1">Стадия 2: Соответствие нормам 1017. Анкета принципала</div>
+                        <div id="stad_1" class="an2">Стадия 2: Постановление Правительства РФ №1017. Анкета принципала</div>
                         <div
-                        id="anketa2">I. Общие сведения</div>
+                        id="anketa2" >I. Общие сведения</div>
                         <div class="calculate-form_field">
                         <div class="calculate-form_field_label">
                             НАИМЕНОВАНИЕ
@@ -192,7 +194,7 @@
                             ИНН
                         </div>
                         <div class="calculate-form_field_control">
-                            <input type="number"
+                            <input
                                    required
                                    name="full_sq" data-validator min="5">&nbsp;
 
@@ -233,7 +235,7 @@
                             Дата внесения в ЕГРЮЛ записи о создании юридического лица (принципала)
                         </div>
                         <div class="calculate-form_field_control">
-                            <input type="number"
+                            <input
                                    required
                                    name="full_sq" data-validator min="5">&nbsp;
                         </div>
@@ -257,7 +259,7 @@
                             бюджетной системы Российской Федерации.
                         </div>
                         <div class="calculate-form_field_control">
-                            <input type="number"
+                            <input
                                    required
                                    name="full_sq" data-validator min="5">&nbsp;
                         </div>
@@ -268,7 +270,7 @@
                             перед Российской Федерацией
                         </div>
                         <div class="calculate-form_field_control">
-                            <input type="number"
+                            <input
                                    required
                                    name="full_sq" data-validator min="5">&nbsp;
                         </div>
@@ -300,7 +302,7 @@
                             нормативными правовыми актами Российской Федерации)
                         </div>
                         <div class="calculate-form_field_control">
-                            <input type="number"
+                            <input
                                    required
                                    name="full_sq" data-validator min="5">&nbsp;
                         </div>
@@ -316,7 +318,79 @@
                                    name="full_sq" data-validator min="5">&nbsp;
                         </div>
                         </div>
-                        <!--
+                        <div
+                        id="anketa2">III. Показатели финансового состояния</div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                           1. Соотношение стоимости чистых активов и уставного капитала
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            2. Коэффициент покрытия основных средств собственными средствами
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            3. Коэффициент текущей ликвидности
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            4. Рентабельность продаж
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            5. Норма чистой прибыли
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            6. Отношение суммы заемных средств (с учетом привлекаемого кредита или облигационного займа) и выданного принципалом обеспечения обязательств и платежей к собственным средствам
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            7. Срок (период) окупаемости всех заемных средств, привлекаемых в целях реализации инвестиционного проекта
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <!-- III. Показатели финансового состояния
                         </label>
                         <div class="calculate-form_field_label">
                             Ваших средств в проекте не меньше 20%
@@ -407,7 +481,7 @@
                     </div>
                 </form>
             </div>
-
+            <!--
             <div class="calculate-form_result" id="results" style="display: none;">
                 <div class="calculate-form_result_item">
                     <div class="calculate-form_result_item_title">Рекомендованная цена</div>
@@ -418,7 +492,7 @@
                     <div class="calculate-form_result_item_value" id="result_duration"></div>
                 </div>
             </div>
-
+            -->
         </div>
     </section>
 
