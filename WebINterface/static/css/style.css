@@ -36,6 +36,7 @@ body {
 }
 .logo {
     font-size: 50px;
+    margin: 7px 0;
     font-weight: 700;
     color: #66BB6A;
 }
@@ -55,8 +56,8 @@ body {
 }
 .header_menu_list {
     list-style-type: none;
-    padding: 6px 0;
-    margin: 0;
+    padding: 20px 0 0 0;
+    margin: 7px 0;
 }
 .header_menu_list_item {
     display: inline-block;
@@ -66,6 +67,7 @@ body {
     text-decoration: none;
     display: inline-block;
     padding: 5px 15px;
+    font-size: 17px;
 }
 .header_menu_list_item_link:hover {
     color: #66BB6A;
@@ -252,6 +254,10 @@ body {
     line-height: 26px;
     color: #212121;
 }
+
+
+#href {text-decoration: none;
+        color: black;}
 
 .calculate-form_field_control input, .calculate-form_field_control select {
     background: #FFFFFF;
