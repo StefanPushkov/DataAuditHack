@@ -146,7 +146,23 @@ body {
 }
 
 
+#stadii {
+    margin: 50px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
 
+#stad_1 {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600
+}
+
+#anketa2 {
+    font-weight: 300;
+    font-size: medium;
+    margin: 30px 0;
+}
 
 
 .main_section__about {
@@ -242,7 +258,7 @@ body {
     border: 2px solid #8693BC;
     border-radius: 2px;
     height: 44px;
-    width: 200px;
+    width: 400px;
     box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
@@ -303,6 +319,7 @@ body {
     color: #212121;
 }
 .calculate-form_btn {
+    padding-top: 20px;
 
 }
 .calculate-form_map {

@@ -1,4 +1,4 @@
-raw_data = "/Back/data/data_discval.csv"
+raw_data = "/Back/data/data15.csv"
 BASE_DIR = 'DataAudit'
 
 

@@ -34,9 +34,9 @@
                 <li class="header_menu_list_item">
                     <a href="#calculate" class="header_menu_list_item_link">Гос поддержка</a>
                 </li>
-                <!--<li class="header_menu_list_item">
-                    <a href="#team" class="header_menu_list_item_link">Команда</a>
-                </li>-->
+                <li class="header_menu_list_item">
+                    <a href="#team" class="header_menu_list_item_link">Закон</a>
+                </li>
                 <li class="header_menu_list_item">
                     <a href="#contacts" class="header_menu_list_item_link">Контакты</a>
                 </li>
@@ -135,9 +135,191 @@
                     <!--<div class="calculate-form_map_container" id="realty-map"></div>-->
                 </div>
                 <form class="calculate-form_fields" id="calculate-form">
+                    <div id="stadii">Проект должен пройти две стадии проверки</div>
+                    <div id="stad_1">Стадия 1: Отбор. Соответствие нормам 1016</div>
                     <div class="calculate-form_field">
+                        <label class="calculate-form_checkbox">
+                            <input type="checkbox" name="renovation">
+                            <span class="calculate-form_checkbox_mask"></span>
+                            <span class="calculate-form_checkbox_text">Ваших средств в проекте не меньше 20%</span>
+                        </label>
+                        <label class="calculate-form_checkbox">
+                            <input type="checkbox" name="renovation">
+                            <span class="calculate-form_checkbox_mask"></span>
+                            <span class="calculate-form_checkbox_text">Участники (Акционеры), а также привлекаемые
+                                к реализации проекта принципалом подрядчики имеют успешный опыт реализации
+                                подобных проектов</span>
+                        </label>
+                        <label class="calculate-form_checkbox">
+                            <input type="checkbox" name="renovation">
+                            <span class="calculate-form_checkbox_mask"></span>
+                            <span class="calculate-form_checkbox_text">Вы имеете документальное подтверждение со
+                                стороны сторонних инвесторов (соинвесторов) и (или) кредитных организаций о готовности
+                                предоставить финансирование для покрытия той доли от полной стоимости проекта,
+                                которая не обеспечена государственной поддержкой и собственными средствами участников
+                                (акционеров)</span>
+                        </label>
+                        <label class="calculate-form_checkbox">
+                            <input type="checkbox" name="renovation">
+                            <span class="calculate-form_checkbox_mask"></span>
+                            <span class="calculate-form_checkbox_text">Вы являетесь юридическим лицом,
+                                зарегистрированным на территории Российской Федерации</span>
+                        </label>
+                        <label class="calculate-form_checkbox">
+                            <input type="checkbox" name="renovation">
+                            <span class="calculate-form_checkbox_mask"></span>
+                            <span class="calculate-form_checkbox_text">Стоимость проекта составляет от 5 млрд. рублей
+                                (от 175 млн. долларов США) до 10 млрд. рублей (до 350 млн. долларов США) включительно.
+                        </span>
+                        </label>
+
+                        <div id="stad_1">Стадия 2: Соответствие нормам 1017. Анкета принципала</div>
+                        <div
+                        id="anketa2">I. Общие сведения</div>
+                        <div class="calculate-form_field">
                         <div class="calculate-form_field_label">
-                            Область Инвестирования
+                            НАИМЕНОВАНИЕ
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            ИНН
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input type="number"
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            ОГРН
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input type="number"
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            Место нахождения юридического лица (принципала)
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            Адрес юридического лица (принципала)
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            Дата внесения в ЕГРЮЛ записи о создании юридического лица (принципала)
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input type="number"
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+
+                        <div
+                        id="anketa2">II. Сведения о выполнении условий оказания государственной гарантийной поддержки</div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                           Нахождение в процессе реорганизации или ликвидации
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            Наличие просроченной (неурегулированной) задолженности по обязательным платежам в бюджеты
+                            бюджетной системы Российской Федерации.
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input type="number"
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            Наличие просроченной (неурегулированной) задолженности по денежным обязательствам
+                            перед Российской Федерацией
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input type="number"
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            Возбуждение производства по делу о несостоятельности (банкротстве)
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            Срок кредита (облигационного займа), привлекаемого для реализации инвестиционного проекта
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            Иные условия (указываются иные применимые к принципалу условия оказания
+                            государственной гарантийной поддержки, установленные законодательными и иными
+                            нормативными правовыми актами Российской Федерации)
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input type="number"
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <div class="calculate-form_field">
+                        <div class="calculate-form_field_label">
+                            Сведения о соответствии принципала требованиям, установленным абзацем первым
+                            пункта 16 статьи 241 Бюджетного кодекса Российской Федерации
+                        </div>
+                        <div class="calculate-form_field_control">
+                            <input
+                                   required
+                                   name="full_sq" data-validator min="5">&nbsp;
+                        </div>
+                        </div>
+                        <!--
+                        </label>
+                        <div class="calculate-form_field_label">
+                            Ваших средств в проекте не меньше 20%
                         </div>
                         <div class="calculate-form_field_control">
                             <select name="building_type_str">
@@ -154,7 +336,7 @@
 
                     <div class="calculate-form_field">
                         <div class="calculate-form_field_label">
-                            Общая площадь
+                            Дата внесения в ЕГРЮЛ записи о создании юридического лица (принципала
                         </div>
                         <div class="calculate-form_field_control">
                             <input type="number"
@@ -219,9 +401,9 @@
                             <span class="calculate-form_checkbox_text">Не последний этаж</span>
                         </label>
                     </div>
-
+                    -->
                     <div class="calculate-form_btn">
-                        <button type="submit" class="btn btn-submit">Рассчитать</button>
+                        <button type="submit" class="btn btn-submit">Отправить</button>
                     </div>
                 </form>
             </div>
@@ -240,38 +422,54 @@
         </div>
     </section>
 
-    <!--
+
     <a id="team"></a>
     <section class="main_section main_section__team">
         <div class="content-wrapper">
-            <div class="main_section__team_title">Команда</div>
+            <div class="main_section__team_title">Закон</div>
             <div class="team-list">
 
                 <div class="team-list_item">
                     <div class="team-list_item_content">
+                        <!--
                         <div class="team-list_item_ava"
                              style="background-image: url(./static/images/team-5.jpg)"></div>
-                        <div class="team-list_item_name">Антон Ботвин</div>
+                             -->
+                        <div class="team-list_item_name">Положение 1016</div>
                         <div class="team-list_item_position"></div>
                         <div class="team-list_item_description">
-                            Основатель сервиса Новостройка.Rus. Выпускник Сколково.
-                            В прошлом руководитель направления новостройки в Яндекс.Недвижимость. Опыт в сфере интернет сервисов более 10 лет.
+                            ОТБОР
                         </div>
                     </div>
                 </div>
 
                 <div class="team-list_item">
                     <div class="team-list_item_content">
-                        <div class="team-list_item_ava"
+                        <!--<div class="team-list_item_ava"
                              style="background-image: url(./static/images/team-7.jpg)"></div>
-                        <div class="team-list_item_name">Татьяна Колоярова</div>
+                             -->
+                        <div class="team-list_item_name">Положение 1017</div>
                         <div class="team-list_item_position"></div>
                         <div class="team-list_item_description">
-                            Генеральный директор Агентство Недвижимости  “Хочу Квартиру”
+                            АНКЕТА ПРИНЦИПАЛА
+                        </div>
+                    </div>
+                    <div class="about-offers_item">
+                    <div class="about-offers_item_content">
+                        <!--<div class="about-offers_item_img">
+                            <img src="static/images/gdpr.svg">
+                        </div>-->
+                        <div class="about-offers_item_title">
+                            ПП 1016
+                        </div>
+                        <div class="about-offers_item_desc">
+                            <iframe src="E:\DataAudit\Правила\pp16.doc" width=200 height=500>
+                            <object><embed src="E:\DataAudit\Правила\ПП 1016_отбор" width="700" height="500" />Файл</object>
                         </div>
                     </div>
                 </div>
-
+                </div>
+                <!--
                 <div class="team-list_item">
                     <div class="team-list_item_content">
                         <div class="team-list_item_ava"
@@ -284,13 +482,13 @@
                         </div>
                     </div>
                 </div>
-
+                -->
             </div>
         </div>
     </section>
 </main>
 <a id="contacts"></a>
--->
+
 
 
 <footer class="footer">
